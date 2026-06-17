@@ -1,0 +1,6 @@
+@echo off
+cd /d "%~dp0"
+echo Installing backend dependencies into venv...
+venv\Scripts\python.exe -m pip install -r requirements.txt
+echo Done.
+pause
